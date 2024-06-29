@@ -1,10 +1,12 @@
 @import "../src/styles/hamburger.css";
+@import "../src/styles/Header.css";
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  /* border: 1px solid red; */
 }
 
 :root {
@@ -13,8 +15,11 @@
   --primary-light-color: #99a5ff;
   --secondary-color: #4352ff;
   --accent: #7b7a7b;
+  --text-color: #18181d;
 }
-
+.container {
+  margin: 0 3rem;
+}
 body {
   font-family: var(--barlow);
   background-color: #f5f5f5;
@@ -45,7 +50,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem;
+  padding: 1.5rem 2rem;
   position: fixed;
   left: 0;
   right: 0;
@@ -74,6 +79,7 @@ nav {
   font-weight: 600;
   padding: 0.75rem 1.5rem;
   border-radius: 0.375rem;
+  border: none;
 }
 
 .hamburger {
@@ -84,11 +90,15 @@ nav {
 }
 
 @media (max-width: 767px) {
+  .container {
+    margin: 0 0.4rem;
+  }
   nav {
     position: fixed;
     left: 0;
     right: 0;
     background: #f5f5f5;
+    padding: 1.5rem 1rem;
   }
   .logo-container {
     display: flex;
@@ -107,9 +117,9 @@ nav {
     right: 0;
     border-radius: 0;
     padding: 2rem 0;
-    background-color: #d7d7d7b8;
+    background-color: #ffffff;
   }
-  .nav-links.hide{
+  .nav-links.hide {
     display: none;
   }
   .nav-links a {
@@ -121,6 +131,33 @@ nav {
     display: block;
     padding: 7px 7px;
   }
+
+  /* Hero section */
+  .hero-section-content h1{
+    font-size: 2.5rem;
+    line-height: 50px;
+    margin-bottom: 2rem;
+    font-weight: 600;
+  }
+  .hero-section-content p{
+    line-height: 30px;
+  }
+  .hero-container{
+    margin-top: 2rem;
+  }
+  #hero-section{
+    padding: 80px 0 0 0;
+  }
+  .join-waitlist-container{
+    margin-top: 3rem;
+    display: flex;
+    width: 100%;
+  }
+  .email-input{
+    flex: 1;
+    padding: 1rem 1.4rem;
+  }
+  /* End of Hero Section */
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -129,8 +166,9 @@ nav {
     left: 0;
     right: 0;
     background: #f5f5f5;
+    padding: 1.5rem 2rem;
   }
-  .nav-links.hide{
+  .nav-links.hide {
     display: none;
   }
   .logo-container {
@@ -150,8 +188,7 @@ nav {
     right: 0;
     border-radius: 0;
     padding: 2rem 0;
-    background-color: #d7d7d7b8;
-    
+    background-color: #ffffff;
   }
   .nav-links a {
     display: block;
@@ -162,4 +199,39 @@ nav {
     display: block;
     padding: 7px 7px;
   }
+  /* Hero section */
+  .join-waitlist-container{
+    margin-top: 3rem;
+    display: flex;
+    width: 80%;
+  }
+  .email-input{
+    flex: 1;
+  }
+  /* End of Hero section */
+}
+
+@media (min-width: 1025px) and (max-width: 1200px){
+  nav{
+    padding: 1.5rem 1rem;
+  }
+  .nav-links{
+    gap: 2rem;
+  }
+  /* Hero section */
+  .hero-section-content h1{
+    font-size: 3rem;
+  }
+  .hero-image{
+    width: 100%;
+  }
+  /* End of Hero section */
+}
+
+@media (min-width: 1201px) {
+  /* Hero-section */
+  .hero-image{
+    width: 90%;
+  }
+  /* End of Hero-section */
 }
