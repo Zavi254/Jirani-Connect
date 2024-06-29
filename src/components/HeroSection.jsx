@@ -27,7 +27,7 @@ const HeroSection = () => {
         </div>
         <img
           className="hero-image"
-          src="src/assets/images/iPhone-desktop.svg"
+          src="/assets/iPhone-desktop.svg"
           alt="Iphone Image"
         />
       </div>
