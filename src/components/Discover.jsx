@@ -16,7 +16,7 @@ const Discover = () => {
             neighbors. Jirani Connect bridges the gap, creating a thriving local
             economy.
           </p>
-          <button className="join-button discover-join-button">Join Waitlist</button>
+          <button className="discover-join-button">Join Waitlist</button>
         </div>
       </div>
     </section>

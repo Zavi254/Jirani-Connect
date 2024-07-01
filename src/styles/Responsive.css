@@ -1,0 +1,17 @@
+@media (min-width: 640px) {
+  .container {
+    margin: 0rem 2rem !important;
+  }
+
+  /* Hero section */
+}
+@media (min-width: 768px) {
+  .hero-image{
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+}
+@media (min-width: 1024px) {
+}
+@media (min-width: 1280px) {
+}
