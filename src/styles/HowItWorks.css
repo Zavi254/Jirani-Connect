@@ -1,6 +1,18 @@
 #how-it-works{
     padding-bottom: 60px;
 }
+#how-it-works button{
+    background-color: #4352FF;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 500;
+    width: 60%;
+    margin: 4rem auto;
+    display: block;
+}
 .how-it-works-title{
     font-size: 1.8rem;
     text-align: center;

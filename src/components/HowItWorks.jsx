@@ -18,6 +18,7 @@ const HowItWorks = () => {
           </div>
         </div>
       ))}
+      <button>Join Waitlist</button>
     </section>
   );
 };
