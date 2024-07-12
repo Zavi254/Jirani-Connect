@@ -5,7 +5,7 @@ const HeroSection = () => {
   const { heading, paragraph, form, image } = data.heroSection;
 
   return (
-    <section id="hero-section">
+    <section id="hero-section" data-aos="zoom-in">
       <div className="hero-container">
         <div className="hero-section-content">
           <h1>{heading}</h1>

@@ -7,7 +7,7 @@ const Discover = () => {
   return (
     <section id="discover">
       <div className="discover-container">
-        <img src={image.src} alt="" className={image.alt} />
+        <img data-aos="fade-right" src={image.src} alt="" className={image.alt} />
         <div className="discover-content">
           <h2>{heading}</h2>
           <p>{paragraph}</p>
