@@ -37,6 +37,7 @@ nav {
   right: 0;
   background: #f5f5f5;
   padding: 1.5rem 1rem;
+  z-index: 1000;
 }
 .logo-container {
   display: flex;

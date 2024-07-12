@@ -19,6 +19,7 @@
 }
 .how-it-works-card {
   background-color: rgba(67, 82, 255, 0.7);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 20px;
   padding: 2rem 1rem;
   width: 85%;
