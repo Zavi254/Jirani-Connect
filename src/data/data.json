@@ -7,7 +7,7 @@
             "buttonText": "Join Waitlist"
         },
         "image": {
-            "src": "/assets/iPhone-desktop.svg",
+            "src": "/assets/images/hero-section/iPhone-desktop.svg",
             "alt": "Iphone Image"
         }
     },
@@ -16,7 +16,7 @@
         "paragraph": "Jirani Connect is a platform designed to foster community connections with Hakika Estate. It allows residents to showcase their businesses and goods, making it easier for neighbors to discover and support local enterprises. Whether you’re looking to expand your business reach or simply prefer to buy from trusted neighbors, Jirani Connect bridges the gap, creating a thriving local economy.",
         "buttonText": "Join Waitlist",
         "image": {
-            "src": "/assets/order-food-image.svg",
+            "src": "/assets/images/discover/order-food-image.svg",
             "alt": "Order food image"
         }
     }
