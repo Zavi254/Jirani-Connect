@@ -1,34 +1,35 @@
 import "../styles/Header.css";
+import data from "../data/data.json";
 
 const HeroSection = () => {
+  const { heading, paragraph, form, image } = data.heroSection;
+
   return (
     <section id="hero-section">
       <div className="hero-container">
         <div className="hero-section-content">
-          <h1>Connect with Your Neighbours, Grow Your Business</h1>
+          <h1>{heading}</h1>
           <p>
-            Join the beta and be the first to connect with local businesses in
-            Hakika Estate. Discover, support, and engage with entrepreneurs
-            right in your community
+            {paragraph}
           </p>
           <form className="join-waitlist-container">
             <input
               type="email"
-              placeholder="Enter email here"
+              placeholder={form.emailPlaceholder}
               name="email"
               id="email"
               className="email-input"
               required
             />
             <button type="submit" className="join-waitlist-button">
-              Join Waitlist
+              {form.buttonText}
             </button>
           </form>
         </div>
         <img
           className="hero-image"
-          src="/assets/iPhone-desktop.svg"
-          alt="Iphone Image"
+          src={image.src}
+          alt={image.alt}
         />
       </div>
     </section>
