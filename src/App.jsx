@@ -1,6 +1,7 @@
 import Discover from "./components/Discover";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
+import HowItWorks from "./components/HowItWorks";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <HeroSection />
       <Discover />
+      <HowItWorks />
     </div>
   );
 }

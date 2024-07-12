@@ -19,5 +19,34 @@
             "src": "/assets/images/discover/order-food-image.svg",
             "alt": "Order food image"
         }
+    },
+    "howItWorks": {
+        "title": "HOW IT WORKS",
+        "cards": [
+            {
+                "title": "Sign Up",
+                "image": {
+                    "src": "/assets/images/how-it-works/mobile-login.svg",
+                    "alt": "Sign Up Image"
+                },
+                "description": "Create an account and set up a profile for your business. Add details about what you offer and how neighbors can reach you."
+            },
+            {
+                "title": "Post Your Goods & Services",
+                "image": {
+                    "src": "/assets/images/how-it-works/post-goods.svg",
+                    "alt": "Post Your Goods Image"
+                },
+                "description": "List your products or services,including descriptions, prices,and availability. Make your business known within the community."
+            },
+            {
+                "title": "Connect with Neighbors",
+                "image": {
+                    "src": "/assets/images/how-it-works/connect.svg",
+                    "alt": "Connect with Neighbors Image"
+                },
+                "description": "Engage with other residents  who are interested in what you offer. Facilitate transactions and build lasting relationships with your customers."
+            }
+        ]
     }
 }

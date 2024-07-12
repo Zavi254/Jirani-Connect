@@ -1,0 +1,29 @@
+#how-it-works{
+    padding-bottom: 60px;
+}
+.how-it-works-title{
+    font-size: 1.8rem;
+    text-align: center;
+}
+.how-it-works-card {
+  background-color: rgba(67, 82, 255, 0.7);
+  border-radius: 20px;
+  padding: 2rem 1rem;
+  width: 85%;
+  margin: auto;
+}
+.how-it-works-card-container{
+    margin-bottom: 2rem;
+}
+.how-it-works-card-container h3{
+    text-align: center;
+    margin: 2rem auto;
+    font-size: 1.8rem;
+    color: #7B7A7B;
+}
+.how-it-works-card-container p {
+  color: #fff;
+  line-height: 2;
+  font-size: 1.1rem;
+  text-align: center;
+}
