@@ -21,7 +21,7 @@ const HeroSection = () => {
               className="email-input"
               required
             />
-            <button type="submit" className="join-waitlist-button">
+            <button type="submit" className="join-waitlist-hero-button">
               {form.buttonText}
             </button>
           </form>
