@@ -11,7 +11,9 @@
   margin-bottom: 2rem;
 }
 .hero-section-content p {
-  line-height: 30px;
+  line-height: 2;
+  font-size: 1.125rem;
+  text-align: center;
 }
 .hero-container {
   display: flex;

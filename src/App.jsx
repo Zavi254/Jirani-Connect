@@ -3,6 +3,7 @@ import Discover from "./components/Discover";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import HowItWorks from "./components/HowItWorks";
+import OurTeam from "./components/OurTeam";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Discover />
       <HowItWorks />
       <Benefits />
+      <OurTeam />
     </div>
   );
 }
