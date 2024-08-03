@@ -1,0 +1,49 @@
+#our-team {
+  padding-bottom: 60px;
+}
+.our-team-headline {
+  text-align: center;
+  color: var(--text-color);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.our-team-subheadline {
+  color: var(--text-color);
+  font-weight: 700;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.team-card {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding: 12px;
+  border-radius: 16px;
+  margin-bottom: 1.5rem;
+}
+.our-team-profile-image {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  margin: 2rem auto;
+}
+.our-team-profile-name {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.our-team-profile-profession{
+    font-size: 1.125rem;
+}
+.our-team-socials{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+.our-team-socials img{
+    width: 28px;
+}

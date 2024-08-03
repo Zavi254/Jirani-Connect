@@ -1,7 +1,7 @@
 {
     "heroSection": {
         "heading": "Connect with Your Neighbours, Grow Your Business",
-        "paragraph": "Join the beta and be the first to connect with local businesses in Hakika Estate. Discover, support, and engage with entrepreneurs right in your community",
+        "paragraph": "Join the waitlist for Jirani Connect to be notified when our local eCommerce platform launches. Support Hakika Estate businesses and be the first to engage. Sign up now!",
         "form": {
             "emailPlaceholder": "Enter email here",
             "buttonText": "Join Waitlist"
@@ -84,6 +84,61 @@
                     "alt": "benefit icon"
                 },
                 "description": "Strengthen connections with neighbors through mutual support. Building strong relationships enhances trust and creates a friendly, supportive environment."
+            }
+        ]
+    },
+    "our_team": {
+        "headline": "OUR TEAM",
+        "sub_headline": " Meet the Team",
+        "members": [
+            {
+                "name": "STEVEN OTIENO",
+                "profession": "Software Engineer",
+                "profileImage": "/assets/images/our-team/software_developer.png",
+                "socials": [
+                    {
+                        "platform": "Gmail",
+                        "icon": "/assets/images/our-team/Gmail.svg",
+                        "url": "mailto:example@gmail.com"
+                    },
+                    {
+                        "platform": "Linkedin",
+                        "icon": "/assets/images/our-team/LinkedIn.svg",
+                        "url": "https://www.linkedin.com/in/example"
+                    },
+                    {
+                        "platform": "Twitter",
+                        "icon": "/assets/images/our-team/TwitterX.svg",
+                        "url": "https://twitter.com/example"
+                    }
+                ]
+            },
+            {
+                "name": "NANCY SARU",
+                "profession": "Product Designer",
+                "profileImage": "/assets/images/our-team/product_designer.png",
+                "socials": [
+                    {
+                        "platform": "Gmail",
+                        "icon": "/assets/images/our-team/Gmail.svg",
+                        "url": "mailto:example@gmail.com"
+                    },
+                    {
+                        "platform": "Linkedin",
+                        "icon": "/assets/images/our-team/LinkedIn.svg",
+                        "url": "https://www.linkedin.com/in/example"
+                    },
+                    {
+                        "platform": "Twitter",
+                        "icon": "/assets/images/our-team/TwitterX.svg",
+                        "url": "https://twitter.com/example"
+                    },
+                    {
+                        "platform": "Behance",
+                        "icon": "/assets/images/our-team/Behance.svg",
+                        "url": "https://www.behance.net/example"
+                    }
+                ]
             }
         ]
     }
