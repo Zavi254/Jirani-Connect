@@ -2,6 +2,7 @@
 @import "../src/styles/Header.css";
 @import "../src/styles/Discover.css";
 @import "../src/styles/HowItWorks.css";
+@import "../src/styles/Benefits.css";
 @import '../src/styles/Responsive.css';
 
 * {

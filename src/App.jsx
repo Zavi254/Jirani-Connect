@@ -1,3 +1,4 @@
+import Benefits from "./components/Benefits";
 import Discover from "./components/Discover";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
@@ -10,6 +11,7 @@ function App() {
       <HeroSection />
       <Discover />
       <HowItWorks />
+      <Benefits />
     </div>
   );
 }

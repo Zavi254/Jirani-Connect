@@ -48,5 +48,43 @@
                 "description": "Engage with other residents  who are interested in what you offer. Facilitate transactions and build lasting relationships with your customers."
             }
         ]
+    },
+    "benefits": {
+        "title": "BENEFITS",
+        "sub_headline": " Enhancing Lives, Solving Everyday Challenges",
+        "cards": [
+            {
+                "title": "Support Local Businesses",
+                "image": {
+                    "src": "/assets/images/benefits/benefit-icon.svg",
+                    "alt": "benefit icon"
+                },
+                "description": "Help local entrepreneurs thrive by buying from neighbors. Your support strengthens the local economy and fosters a sense of community."
+            },
+            {
+                "title": "Convenient Access",
+                "image": {
+                    "src": "/assets/images/benefits/benefit-icon.svg",
+                    "alt": "benefit icon"
+                },
+                "description": "Easily find and purchase goods and services from trusted neighbors. Enjoy the convenience of local shopping without the hassle of traveling far."
+            },
+            {
+                "title": "Grow Your Business Locally",
+                "image": {
+                    "src": "/assets/images/benefits/benefit-icon.svg",
+                    "alt": "benefit icon"
+                },
+                "description": "Expand your customer base within the community. Gain valuable exposure and increase sales by connecting with neighbors who value your offerings."
+            },
+            {
+                "title": "Build Stronger Relationships",
+                "image": {
+                    "src": "/assets/images/benefits/benefit-icon.svg",
+                    "alt": "benefit icon"
+                },
+                "description": "Strengthen connections with neighbors through mutual support. Building strong relationships enhances trust and creates a friendly, supportive environment."
+            }
+        ]
     }
 }
