@@ -1,7 +1,7 @@
 #how-it-works{
     padding-bottom: 60px;
 }
-#how-it-works button{
+#how-it-works .waitlist-btn{
     background-color: #4352FF;
     border: none;
     padding: 1rem 2rem;

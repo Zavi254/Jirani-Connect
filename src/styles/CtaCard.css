@@ -1,7 +1,7 @@
 #cta-section{
     margin-bottom: 60px;
     text-align: center;
-    color: #fff;
+    /* color: #fff; */
     background-color: var(--secondary-color);
     padding: 2rem 1rem;
 }
@@ -11,10 +11,12 @@
 .cta-section-headline{
     font-size: 2rem;
     font-weight: 700;
+    color: #fff;
 }
 .cta-section-description{
     line-height: 2;
     font-size: 1.125rem;
+    color: #fff;
 }
 .cta-section-btn{
     background-color: #000;

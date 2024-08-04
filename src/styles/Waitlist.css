@@ -1,0 +1,13 @@
+.waitlist_email_icon {
+  width: 20%;
+  margin: 1.4rem auto 1rem auto;
+}
+.join-waitlist-headline{
+    color: #170F49;
+    font-size: 1.8rem !important;
+}
+.join-waitlist-description{
+    color: #6F6C90;
+    font-weight: 400;
+    font-size: 1.125rem !important;
+}

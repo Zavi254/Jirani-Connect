@@ -6,6 +6,8 @@
 @import "../src/styles/OurTeam.css";
 @import "../src/styles/CtaCard.css";
 @import "../src/styles/Footer.css";
+@import "../src/styles/Popup.css";
+@import "../src/styles/Waitlist.css";
 @import '../src/styles/Responsive.css';
 
 * {
