@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import HowItWorks from "./components/HowItWorks";
 import OurTeam from "./components/OurTeam";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       </div>
       <CtaCard />
       <Footer />
+      <ToastContainer />
     </>
   );
 }
