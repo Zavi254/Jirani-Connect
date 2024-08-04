@@ -14,11 +14,13 @@ const HeroSection = () => {
   const handleOpenThankYou = () => setIsThankYouOpen(true);
   const handleCloseThankYou = () => setIsThankYouOpen(false);
 
+  const apiUrl = import.meta.env.VITE_REACT_APP_API_URL;
+
   const handleSubmit = async (event) => {
     event.preventDefault();
     setLoading(true);
     try {
-      const response = await fetch(`${process.env.REACT_APP_API_URL}`, {
+      const response = await fetch(`${apiUrl}`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

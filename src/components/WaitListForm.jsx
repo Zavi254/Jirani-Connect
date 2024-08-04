@@ -19,15 +19,14 @@ const WaitListForm = ({ className }) => {
 
   const { form } = data.heroSection;
 
-  const apiUrl = process.env.REACT_APP_API_URL
-
-  console.log(apiUrl)
+  // const apiUrl = process.env.REACT_APP_API_URL;
+  const apiUrl = import.meta.env.VITE_REACT_APP_API_URL;
 
   const handleSubmit = async (event) => {
     event.preventDefault();
     setLoading(true);
     try {
-      const response = await fetch(`${process.env.REACT_APP_API_URL}`, {
+      const response = await fetch(`${apiUrl}`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
