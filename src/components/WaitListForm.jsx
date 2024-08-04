@@ -19,6 +19,10 @@ const WaitListForm = ({ className }) => {
 
   const { form } = data.heroSection;
 
+  const apiUrl = process.env.REACT_APP_API_URL
+
+  console.log(apiUrl)
+
   const handleSubmit = async (event) => {
     event.preventDefault();
     setLoading(true);
