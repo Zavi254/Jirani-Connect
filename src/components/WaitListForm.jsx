@@ -1,15 +1,15 @@
 import { useState } from "react";
 import { toast } from "react-toastify";
+import { useLoading } from "../context/LoadingContext";
 import "react-toastify/ReactToastify.css";
 import data from "../data/data.json";
 import emailIcon from "/assets/images/waitlist/waitlist-email-icon.svg";
 import Popup from "./Popup";
-import Loading from "./Loading";
 
 const WaitListForm = ({ className }) => {
+  const { loading, setLoading } = useLoading();
   const [isFormOpen, setIsFormOpen] = useState(false);
   const [isThankYouOpen, setIsThankYouOpen] = useState(false);
-  const [loading, setLoading] = useState(false);
   const [email, setEmail] = useState("");
 
   const handleOpenForm = () => setIsFormOpen(true);
@@ -54,7 +54,6 @@ const WaitListForm = ({ className }) => {
   };
   return (
     <div>
-      <Loading isLoading={loading}  />
       <button onClick={handleOpenForm} className={className} disabled={loading}>
         Join Waitlist
       </button>

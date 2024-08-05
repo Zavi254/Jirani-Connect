@@ -17,7 +17,6 @@ const Discover = () => {
         <div className="discover-content">
           <h2>{heading}</h2>
           <p>{paragraph}</p>
-          {/* <button className="discover-join-button">{buttonText}</button> */}
           <WaitListForm className={"discover-join-button"} />
         </div>
       </div>

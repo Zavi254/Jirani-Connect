@@ -5,12 +5,13 @@ import Popup from "./Popup";
 import { toast } from "react-toastify";
 import "react-toastify/ReactToastify.css";
 import Loading from "./Loading";
+import { useLoading } from "../context/LoadingContext";
 
 const HeroSection = () => {
   const { heading, paragraph, form, image } = data.heroSection;
   const [email, setEmail] = useState("");
   const [isThankYouOpen, setIsThankYouOpen] = useState(false);
-  const [loading, setLoading] = useState(false);
+  const { loading, setLoading } = useLoading();
 
   const handleOpenThankYou = () => setIsThankYouOpen(true);
   const handleCloseThankYou = () => setIsThankYouOpen(false);
@@ -49,7 +50,6 @@ const HeroSection = () => {
 
   return (
     <section id="hero-section" data-aos="zoom-in">
-      <Loading isLoading={loading} />
       <div className="hero-container">
         <div className="hero-section-content">
           <h1>{heading}</h1>

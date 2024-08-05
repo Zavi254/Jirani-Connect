@@ -4,7 +4,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../styles/Benefits.css";
 import data from "../data/data.json";
-import WaitListForm from "./WaitListForm";
 
 const Benefits = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -39,8 +38,6 @@ const Benefits = () => {
           ))}
         </Slider>
       </div>
-      {/* <button className="benefit-btn">Join Waitlist</button> */}
-      {/* <WaitListForm className={"benefit-btn"} /> */}
     </section>
   );
 };
