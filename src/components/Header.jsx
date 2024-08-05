@@ -7,6 +7,10 @@ const Header = () => {
     setMenuOpen(!menuOpen);
   };
 
+  const handlelinkClick = () => {
+    setMenuOpen(false); // close the menu when a link is clicked
+  };
+
   return (
     <header>
       <nav>
@@ -21,12 +25,24 @@ const Header = () => {
           className={`nav-links ${menuOpen ? "" : "hide"} `}
           id="middle-menu"
         >
-          <a href="#about">Home</a>
-          <a href="#process">About the Products</a>
-          <a href="#services">How it Works</a>
-          <a href="#works">Benefits</a>
-          <a href="#why-us">Team</a>
-          <a href="#why-us">Contact</a>
+          <a href="#hero-section" onClick={handlelinkClick}>
+            Home
+          </a>
+          <a href="#discover" onClick={handlelinkClick}>
+            About the Product
+          </a>
+          <a href="#how-it-works" onClick={handlelinkClick}>
+            How it Works
+          </a>
+          <a href="#benefits" onClick={handlelinkClick}>
+            Benefits
+          </a>
+          <a href="#our-team" onClick={handlelinkClick}>
+            Team
+          </a>
+          <a href="#our-team" onClick={handlelinkClick}>
+            Contact
+          </a>
         </div>
         <button
           onClick={toggleMenu}
