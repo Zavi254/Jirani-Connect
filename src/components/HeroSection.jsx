@@ -4,6 +4,7 @@ import { useState } from "react";
 import Popup from "./Popup";
 import { toast } from "react-toastify";
 import "react-toastify/ReactToastify.css";
+import Loading from "./Loading";
 
 const HeroSection = () => {
   const { heading, paragraph, form, image } = data.heroSection;
@@ -48,6 +49,7 @@ const HeroSection = () => {
 
   return (
     <section id="hero-section" data-aos="zoom-in">
+      <Loading isLoading={loading} />
       <div className="hero-container">
         <div className="hero-section-content">
           <h1>{heading}</h1>
