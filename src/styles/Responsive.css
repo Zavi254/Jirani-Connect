@@ -6,7 +6,7 @@
   /* Hero section */
 }
 @media (min-width: 768px) {
-  .hero-image{
+  .hero-image {
     width: 100%;
     /* border: 1px solid red; */
   }
@@ -15,4 +15,7 @@
 }
 @media (min-width: 1280px) {
 }
- 
+@media (min-width: 1400px) {
+}
+@media (min-width: 1536px) {
+}

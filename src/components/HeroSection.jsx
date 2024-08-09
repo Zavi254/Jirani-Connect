@@ -1,10 +1,10 @@
 import "../styles/Header.css";
 import data from "../data/data.json";
+import emailIcon from "/assets/images/waitlist/waitlist-email-icon.svg";
 import { useState } from "react";
 import Popup from "./Popup";
 import { toast } from "react-toastify";
 import "react-toastify/ReactToastify.css";
-import Loading from "./Loading";
 import { useLoading } from "../context/LoadingContext";
 
 const HeroSection = () => {
@@ -49,7 +49,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section id="hero-section" data-aos="zoom-in">
+    <section id="hero-section">
       <div className="hero-container">
         <div className="hero-section-content">
           <h1>{heading}</h1>
@@ -75,6 +75,7 @@ const HeroSection = () => {
             </div>
           </form>
           <Popup isOpen={isThankYouOpen} onClose={handleCloseThankYou}>
+            <img src={emailIcon} alt="" className="waitlist_email_icon" />
             <h2>Thank You!</h2>
             <p>
               Thank you for joining the waitlist! We'll notify you once the

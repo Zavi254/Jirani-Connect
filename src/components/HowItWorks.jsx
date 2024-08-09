@@ -1,6 +1,5 @@
 import "../styles/HowItWorks.css";
 import data from "../data/data.json";
-import WaitListForm from "./WaitListForm";
 
 const HowItWorks = () => {
   const { title, cards } = data.howItWorks;
@@ -19,8 +18,6 @@ const HowItWorks = () => {
           </div>
         </div>
       ))}
-      {/* <button>Join Waitlist</button> */}
-      {/* <WaitListForm className={'waitlist-btn'} /> */}
     </section>
   );
 };
