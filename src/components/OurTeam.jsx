@@ -17,7 +17,7 @@ const OurTeam = () => {
             <p className="our-team-profile-profession">{member.profession}</p>
             <div className="our-team-socials">
               {member.socials.map((social, i) => (
-                <a key={i} href={social.url}>
+                <a key={i} href={social.url} target="_blank">
                   <img
                     src={social.icon}
                     alt={social.platform}

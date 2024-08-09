@@ -94,49 +94,44 @@
             {
                 "name": "STEVEN OTIENO",
                 "profession": "Software Engineer",
-                "profileImage": "/assets/images/our-team/software_developer.png",
+                "profileImage": "/assets/images/our-team/man_avatar.svg",
                 "socials": [
                     {
                         "platform": "Gmail",
                         "icon": "/assets/images/our-team/Gmail.svg",
-                        "url": "mailto:example@gmail.com"
+                        "url": "mailto:steveotianga8991@gmail.com"
                     },
                     {
                         "platform": "Linkedin",
                         "icon": "/assets/images/our-team/LinkedIn.svg",
-                        "url": "https://www.linkedin.com/in/example"
+                        "url": "https://www.linkedin.com/in/steven-otianga"
                     },
                     {
                         "platform": "Twitter",
                         "icon": "/assets/images/our-team/TwitterX.svg",
-                        "url": "https://twitter.com/example"
+                        "url": "https://x.com/254Zavi"
                     }
                 ]
             },
             {
                 "name": "NANCY SARU",
                 "profession": "Product Designer",
-                "profileImage": "/assets/images/our-team/product_designer.png",
+                "profileImage": "/assets/images/our-team/woman_avatar.svg",
                 "socials": [
                     {
                         "platform": "Gmail",
                         "icon": "/assets/images/our-team/Gmail.svg",
-                        "url": "mailto:example@gmail.com"
+                        "url": "mailto:nsaruwawasi@gmail.com"
                     },
                     {
                         "platform": "Linkedin",
                         "icon": "/assets/images/our-team/LinkedIn.svg",
-                        "url": "https://www.linkedin.com/in/example"
-                    },
-                    {
-                        "platform": "Twitter",
-                        "icon": "/assets/images/our-team/TwitterX.svg",
-                        "url": "https://twitter.com/example"
+                        "url": "https://www.linkedin.com/in/nancy-saru-2838ba2a3"
                     },
                     {
                         "platform": "Behance",
                         "icon": "/assets/images/our-team/Behance.svg",
-                        "url": "https://www.behance.net/example"
+                        "url": "https://www.behance.net/nancysaru"
                     }
                 ]
             }
