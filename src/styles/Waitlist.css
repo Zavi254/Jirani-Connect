@@ -5,9 +5,13 @@
 .join-waitlist-headline{
     color: #170F49;
     font-size: 1.8rem !important;
+    margin-bottom: 1rem;
 }
 .join-waitlist-description{
     color: #6F6C90;
     font-weight: 400;
     font-size: 1.125rem !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    
 }

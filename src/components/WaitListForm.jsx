@@ -62,11 +62,6 @@ const WaitListForm = ({ className }) => {
         <h2 className="join-waitlist-headline">
           Join the Waitlist for Early Access
         </h2>
-        <p className="join-waitlist-description">
-          Be the first to experience Jirani Connect, our upcoming local
-          eCommerce platform for Hakika Estate. Enter your email below to join
-          our waitlist and receive exclusive updates.
-        </p>
         <form onSubmit={handleSubmit}>
           <div className="input-container">
             <input

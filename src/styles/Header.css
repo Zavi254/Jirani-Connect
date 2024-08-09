@@ -26,31 +26,26 @@
 .hero-image {
   flex: 1;
 }
-
-
 .join-waitlist-container {
   width: 100%;
   /* display: flex; */
   margin: 3rem auto;
 }
 
-.input-container{
+.input-container {
   position: relative;
-  /* padding: 1rem; */
-  /* width: 300px; */
-  /* border: 2px solid red; */
 }
-.input-container input{
+.input-container input {
   width: 100%;
   border-radius: 60px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  padding: 1.5rem ;
+  padding: 1.5rem;
   border: none;
   outline: none;
-  font-size: 1rem;
-  color: #6F6C90;
+  font-size: 0.8rem;
+  color: #6f6c90;
 }
-.input-container button{
+.input-container button {
   position: absolute;
   right: 2%;
   top: 15%;
