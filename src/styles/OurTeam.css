@@ -23,16 +23,7 @@
   padding: 12px;
   border-radius: 16px;
   margin-bottom: 1.5rem;
-  background: linear-gradient(
-    120deg,
-    #99a5ff,
-    #4352ff,
-    #99a5ff,
-    #99a5ff,
-    #a18cd1,
-    #99a5ff
-  );
-  background-size: 200% 200%;
+  
 }
 .our-team-profile-image {
   border-radius: 50%;
@@ -42,9 +33,8 @@
 }
 .our-team-profile-name {
   margin-bottom: 1rem;
-  font-weight: 700;
   font-size: 1.3rem;
-  color: #fff;
+  font-weight: 500;
 }
 .our-team-profile-profession {
   font-size: 1.125rem;
