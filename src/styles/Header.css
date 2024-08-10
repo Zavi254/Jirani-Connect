@@ -28,7 +28,6 @@
 }
 .join-waitlist-container {
   width: 100%;
-  /* display: flex; */
   margin: 3rem auto;
 }
 
@@ -49,11 +48,7 @@
   position: absolute;
   right: 2%;
   top: 15%;
-
-  /* top: 10; */
-  /* height: 100%; */
   padding: 1rem 2rem;
-  /* margin-right: 20px; */
   border-radius: 56px;
   border: none;
   background-color: var(--secondary-color);
@@ -61,6 +56,9 @@
   cursor: pointer;
   font-weight: 600;
   font-size: 15px;
+}
+.nav-links a.active{
+  color: var(--primary-color);
 }
 
 /* End of Hero Section */

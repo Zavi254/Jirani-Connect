@@ -1,6 +1,6 @@
 {
     "heroSection": {
-        "heading": "Connect with Hakika Neighbours, Grow Your Business",
+        "heading": "Connect with Your Neighbours, Grow Your Business",
         "paragraph": "Join the waitlist for Jirani Connect to be notified when our local eCommerce platform launches. Support Hakika Estate businesses and be the first to engage. Sign up now!",
         "form": {
             "emailPlaceholder": "Enter email here",
@@ -17,7 +17,7 @@
         "buttonText": "Join Waitlist",
         "image": {
             "src": "/assets/images/discover/order-food-image.svg",
-            "alt": "Order food image"
+            "alt": "order_food"
         }
     },
     "howItWorks": {
