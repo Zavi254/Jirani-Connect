@@ -33,7 +33,7 @@
   #hero-section {
     text-align: left;
   }
-  .hero-section-content h1{
+  .hero-section-content h1 {
     font-size: 2.6rem;
   }
   .hero-section-content p {
@@ -78,8 +78,29 @@
     font-size: 1rem;
     cursor: pointer;
   }
-
   /* End of Hero section */
+  /* Discover section */
+  .discover-container {
+    flex-direction: row;
+  }
+  .discover-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .discover-join-button{
+    margin: 0%;
+    width: 100%;
+  }
+  .discover-content h2 {
+    margin-bottom: 0%;
+  }
+  .discover-content h2,
+  .discover-content p {
+    text-align: left;
+  }
+  .order_food{
+    width: 50%;
+  }
 }
 @media (min-width: 1280px) {
   /* Navigation bar */
@@ -94,22 +115,29 @@
 }
 @media (min-width: 1400px) {
   /* Hero Section */
-  .hero-section-content h1{
+  .hero-section-content h1 {
     font-size: 3.5rem;
   }
-  .input-container button{
+  .input-container button {
     padding: 1rem 5rem;
   }
 }
 @media (min-width: 1536px) {
   /* Hero section */
-  .hero-section-content h1{
+  .hero-section-content h1 {
     font-size: 4rem;
   }
-  .hero-container{
+  .hero-container {
     margin-top: 0%;
   }
-  .input-container{
+  .input-container {
     width: 80%;
+  }
+  /* Discover */
+  .order_food{
+    width: 45%;
+  }
+  .discover-content p{
+    line-height: 2;
   }
 }

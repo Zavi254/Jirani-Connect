@@ -17,6 +17,12 @@ const WaitListForm = ({ className }) => {
   const handleOpenThankYou = () => setIsThankYouOpen(true);
   const handleCloseThankYou = () => setIsThankYouOpen(false);
 
+  const styles = {
+    item: {
+      alignSelf: "flex-start",
+    },
+  };
+
   const { form } = data.heroSection;
 
   // const apiUrl = process.env.REACT_APP_API_URL;
@@ -53,7 +59,7 @@ const WaitListForm = ({ className }) => {
     setLoading(false);
   };
   return (
-    <div>
+    <div style={styles.item}>
       <button onClick={handleOpenForm} className={className} disabled={loading}>
         Join Waitlist
       </button>
