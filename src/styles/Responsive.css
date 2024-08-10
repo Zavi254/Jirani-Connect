@@ -9,9 +9,6 @@
   .order_food {
     width: 400px;
   }
-  .how-it-works-card-image-container img {
-    margin: auto;
-  }
   .how-it-works-card {
     width: 80%;
   }
@@ -67,6 +64,9 @@
   .nav-links a:hover {
     color: var(--primary-color);
   }
+  .join-waitlist-btn-container {
+    display: block !important;
+  }
   .join-button {
     background-color: var(--secondary-color);
     color: white;
@@ -83,11 +83,11 @@
   .discover-container {
     flex-direction: row;
   }
-  .discover-content{
+  .discover-content {
     display: flex;
     flex-direction: column;
   }
-  .discover-join-button{
+  .discover-join-button {
     margin: 0%;
     width: 100%;
   }
@@ -98,8 +98,46 @@
   .discover-content p {
     text-align: left;
   }
-  .order_food{
+  .order_food {
     width: 50%;
+  }
+  /* How it works */
+  .how-it-works-card {
+    box-shadow: none;
+    background-color: transparent;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    width: 100%;
+  }
+
+  .how-it-works-card-container p {
+    color: #000101;
+    text-align: left;
+  }
+
+  .how-it-works-signup-container {
+    flex: 1;
+  }
+  .how-it-works-signup-container p {
+    color: #000101;
+    font-size: 1.2rem;
+    line-height: 2.2;
+  }
+  .mobile-card-title {
+    display: none;
+  }
+  .desktop-card-title {
+    display: block;
+    color: #7b7a7b;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+  .row-direction {
+    flex-direction: row;
+  }
+  .row-reverse-direction {
+    flex-direction: row-reverse;
   }
 }
 @media (min-width: 1280px) {
@@ -112,6 +150,13 @@
     font-size: 3rem;
     line-height: 1.3;
   }
+  /* How it works */
+  .how-it-works-card-image{
+    width: 50%;
+  }
+  .desktop-card-title{
+    font-size: 2rem;
+  }
 }
 @media (min-width: 1400px) {
   /* Hero Section */
@@ -123,6 +168,9 @@
   }
 }
 @media (min-width: 1536px) {
+  .container{
+    margin: 0 5rem;
+  }
   /* Hero section */
   .hero-section-content h1 {
     font-size: 4rem;
@@ -134,10 +182,18 @@
     width: 80%;
   }
   /* Discover */
-  .order_food{
+  .order_food {
     width: 45%;
   }
-  .discover-content p{
+  .discover-content p {
     line-height: 2;
+  }
+  /* How it works */
+  .how-it-works-card-image{
+    width: 35%;
+  }
+  .how-it-works-card{
+    gap: 20rem;
+    justify-content: space-around;
   }
 }

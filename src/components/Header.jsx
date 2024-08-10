@@ -87,12 +87,10 @@ const Header = () => {
             <span className="hamburger-inner"></span>
           </span>
         </button>
-        {/* <div className="join-waitlist">
-          <a href="#" className="join-button">
-            Join Waitlist
-          </a>
-        </div> */}
-        <WaitListForm className={'join-button'} />
+        <WaitListForm
+          className={"join-button"}
+          classRemoveName={"join-waitlist-btn-container"}
+        />
       </nav>
     </header>
   );

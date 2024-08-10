@@ -6,7 +6,7 @@ import data from "../data/data.json";
 import emailIcon from "/assets/images/waitlist/waitlist-email-icon.svg";
 import Popup from "./Popup";
 
-const WaitListForm = ({ className }) => {
+const WaitListForm = ({ className, classRemoveName }) => {
   const { loading, setLoading } = useLoading();
   const [isFormOpen, setIsFormOpen] = useState(false);
   const [isThankYouOpen, setIsThankYouOpen] = useState(false);
@@ -59,7 +59,7 @@ const WaitListForm = ({ className }) => {
     setLoading(false);
   };
   return (
-    <div style={styles.item}>
+    <div style={styles.item} className={classRemoveName}>
       <button onClick={handleOpenForm} className={className} disabled={loading}>
         Join Waitlist
       </button>

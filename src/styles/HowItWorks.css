@@ -1,21 +1,21 @@
-#how-it-works{
-    padding-bottom: 60px;
+#how-it-works {
+  padding-bottom: 60px;
 }
-#how-it-works .waitlist-btn{
-    background-color: #4352FF;
-    border: none;
-    padding: 1rem 2rem;
-    border-radius: 4px;
-    font-size: 1rem;
-    color: #fff;
-    font-weight: 600;
-    width: 60%;
-    margin: 4rem auto;
-    display: block;
+#how-it-works .waitlist-btn {
+  background-color: #4352ff;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 600;
+  width: 60%;
+  margin: 4rem auto;
+  display: block;
 }
-.how-it-works-title{
-    font-size: 1.8rem;
-    text-align: center;
+.how-it-works-title {
+  font-size: 1.8rem;
+  text-align: center;
 }
 .how-it-works-card {
   background-color: rgba(67, 82, 255, 0.7);
@@ -25,14 +25,17 @@
   width: 85%;
   margin: auto;
 }
-.how-it-works-card-container{
-    margin-bottom: 2rem;
+.how-it-works-card-container {
+  margin-bottom: 2rem;
 }
-.how-it-works-card-container h3{
-    text-align: center;
-    margin: 2rem auto;
-    font-size: 1.8rem;
-    color: #7B7A7B;
+.how-it-works-card-container .mobile-card-title {
+  text-align: center;
+  margin: 2rem auto;
+  font-size: 1.8rem;
+  color: #7b7a7b;
+}
+.desktop-card-title{
+    display: none;
 }
 .how-it-works-card-container p {
   color: #fff;
