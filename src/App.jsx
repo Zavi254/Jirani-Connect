@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Benefits from "./components/Benefits";
 import CtaCard from "./components/CtaCard";
 import Discover from "./components/Discover";

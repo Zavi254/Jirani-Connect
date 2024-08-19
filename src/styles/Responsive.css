@@ -43,7 +43,7 @@
     font-size: 1.8rem !important;
   }
   nav {
-    padding: 1.8rem 1rem !important ;
+    padding: 1rem !important ;
   }
   .nav-links {
     display: flex !important;
@@ -139,6 +139,37 @@
   .row-reverse-direction {
     flex-direction: row-reverse;
   }
+
+  /* Benefits */
+  .benefits-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 100%;
+  }
+  .benefit-card {
+    width: 40%;
+    margin-bottom: 3rem;
+  }
+  /* Our Team */
+  .our-team-cards-container {
+    display: flex;
+    gap: 3rem;
+  }
+  .team-card {
+    width: 40%;
+  }
+  .our-team-subheadline {
+    margin-bottom: 5rem;
+  }
+  /* Cta section */
+  .cta-section-btn {
+    width: 20%;
+  }
+  .cta-section-description {
+    margin-top: 4rem;
+  }
 }
 @media (min-width: 1280px) {
   /* Navigation bar */
@@ -151,11 +182,18 @@
     line-height: 1.3;
   }
   /* How it works */
-  .how-it-works-card-image{
+  .how-it-works-card-image {
     width: 50%;
   }
-  .desktop-card-title{
+  .desktop-card-title {
     font-size: 2rem;
+  }
+  /* .Benefits */
+  .benefits-cards-container{
+    gap: 30px;
+  }
+  .benefit-card{
+    flex: 1;
   }
 }
 @media (min-width: 1400px) {
@@ -166,9 +204,17 @@
   .input-container button {
     padding: 1rem 5rem;
   }
+  /* Our Team */
+  .team-card {
+    width: 30%;
+  }
+  /* Cta Section */
+  #cta-section {
+    padding: 5rem 1rem;
+  }
 }
 @media (min-width: 1536px) {
-  .container{
+  .container {
     margin: 0 5rem;
   }
   /* Hero section */
@@ -189,11 +235,15 @@
     line-height: 2;
   }
   /* How it works */
-  .how-it-works-card-image{
+  .how-it-works-card-image {
     width: 35%;
   }
-  .how-it-works-card{
+  .how-it-works-card {
     gap: 20rem;
     justify-content: space-around;
+  }
+  /* Our Team */
+  .our-team-cards-container {
+    gap: 0%;
   }
 }
